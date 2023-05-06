@@ -42,5 +42,15 @@
 ## **UB**
 
  호환성 있는 앱을 작성하려면, 표준에 맞게 작성하는 것이 좋으며, 이 때 UB는 피해야함.
+ 
+- 초기화 되지 않은 변수 사용
+    - ex) 몇몇 컴파일러는 class의 멤버 변수를 0으로 초기화시킴 (보통 쓰레기값)
+- 생성자/소멸자에 순수 가상 함수를 호출
+
+- Unspecified Behavior
+    - Order of evaluation ([C++17](https://www.cppstories.com/2021/evaluation-order-cpp17/)(부터는 다름)
+
+
+- fsanitize (새니타이저) 컴파일 옵션 사용
 
  
