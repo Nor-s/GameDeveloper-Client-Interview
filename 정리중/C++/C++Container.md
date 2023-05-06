@@ -45,15 +45,15 @@
 2. 이를 버킷 개수로 나눈 나머지를 구해서 어떤 버킷에 들어갈지 계산
 
 - 다른 key여도 같은 버킷에 들어갈 수 있음
-    -  해시 충돌에 대응하기 위해 std::unordered_map은 각 버킷마다 linked list로 (key, value) 쌍을 저장
+    -  체이닝: 해시 충돌에 대응하기 위해 std::unordered_map은 각 버킷마다 linked list로 (key, value) 쌍을 저장 
         -  하나의 버킷에 모든 데이터가 삽입될 가능성이 있음
         -  데이터 처리위해 linked list를 순회 => 최악의 경우 시간복잡도가 O(n)
     - 기본 hash function: `std::hash`
         -  지원 타입: int, double 등의 primitive type, std::string 등
  
  
+> 개방주소법: 특정 버킷에서 충돌이 발생하면, 비어있는 버킷을 찾아 항목을 저장
 
-- 
 
 ## deque, vector
 
