@@ -49,6 +49,8 @@
 - [스마트 포인터](https://github.com/Romanticism-GameDeveloper/GameDeveloper-Client-Interview/blob/main/C%2B%2B/%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
 - [Name Mangling](https://github.com/Romanticism-GameDeveloper/GameDeveloper-Client-Interview/blob/main/C%2B%2B/Name%20Mangling%20(Decoration).md)
 
+---
+
 - [가상함수  및 가상함수 테이블]()
 
 ## C# & Unity
@@ -79,6 +81,8 @@
 - [가상 메모리](https://github.com/Romanticism-GameDeveloper/GameDeveloper-Client-Interview/blob/main/OS/%EA%B0%80%EC%83%81%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20-%20Virtual%20Memory.md)
 - [데드락 - DeadLock](https://github.com/Romanticism-GameDeveloper/GameDeveloper-Client-Interview/blob/main/OS/DeadLock%20(%EB%8D%B0%EB%93%9C%EB%9D%BD%2C%20%EA%B5%90%EC%B0%A9%20%EC%83%81%ED%83%9C%2C%20%EC%9D%B4%ED%95%98%20%EB%8D%B0%EB%93%9C%EB%9D%BD).md)
 
+---
+
 - [프로세스 메모리 구조]()
 
 
@@ -95,15 +99,21 @@
 
 ## 네트워크 
 
-- [TCP와 UDP]()
+---
+
+- [TCP와 UDP](/정리중/Network/TCP,UDP.md)
 
 ## 게임 수학
+
+---
 
 - [내적 외적]()
 
 ## 알고리즘 
 
-- [다익스트라, A*]()
+---
+
+- [다익스트라, A*](/정리중/알고리즘/다익스트라,A-star.md)
 
 
 ---
